@@ -42,20 +42,20 @@
 		}
 
 		&.-range-from-, &.-range-to- {
-			border: 1px solid fade(#0089FF, 30%);
-			background: fade(#0089FF, 10%);
+			border: 1px solid fade(#0097a7ff, 30%);
+			background: fade(#0097a7ff, 10%);
 		}
 
 		&.-selected-, &.-current-.-selected- {
-			background: #0089FF;
+			background: #0097a7ff;
 		}
 
 		&.-in-range- {
-			background: fade(#0089FF, 5%);
+			background: fade(#0097a7ff, 5%);
 		}
 
 		&.-in-range-.-focus- {
-			background: fade(#0089FF, 10%);
+			background: fade(#0097a7ff, 10%);
 		}
 
 		&.-focus- {
@@ -63,7 +63,7 @@
 		}
 
 		&.-selected-.-focus- {
-			background: fade(#0089FF, 90%);
+			background: fade(#0097a7ff, 90%);
 		}
 	}
 
@@ -72,7 +72,7 @@
 	}
 
 	&--time-row {
-		background-image: linear-gradient(to right, #0089FF, #0089FF);
+		background-image: linear-gradient(to right, #0097a7ff, #0097a7ff);
 		background-repeat: no-repeat;
 		background-size: 100% 1px;
 		background-position: left 50%;
