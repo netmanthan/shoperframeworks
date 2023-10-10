@@ -5,11 +5,13 @@ frappe.ui.misc.about = function () {
 
 		$(d.body).html(
 			repl(
-				"<div>
+				"<div>\
 		<p>" +
-					__("Applications for the Cloud POS and Retail ERP") +
+					__("Open Source Applications for the Web") +
+					"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
 			Website: <a href='https://shopersolutions.com' target='_blank'>https://shopersolutions.com</a></p>\
+
 		<hr>\
 		<h4>Installed Apps</h4>\
 		<div id='about-app-versions'>Loading versions...</div>\
