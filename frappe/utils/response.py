@@ -275,7 +275,7 @@ def handle_session_stopped():
 
 	frappe.respond_as_web_page(
 		_("Updating"),
-		_("The system is being updated. Please refresh again after a few moments."),
+		_("The ShoperPrime system is being updated. Please refresh again after a few moments."),
 		http_status_code=503,
 		indicator_color="orange",
 		fullpage=True,
