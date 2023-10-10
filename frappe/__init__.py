@@ -44,8 +44,8 @@ from .utils.jinja import (
 )
 from .utils.lazy_loader import lazy_import
 
-__version__ = "14.51.0"
-__title__ = "NETMANTHAN"
+__version__ = "1.51.0"
+__title__ = "ShoperFrameworks"
 
 controllers = {}
 local = Local()
