@@ -70,7 +70,7 @@ Full-stack web application framework that uses Python and MariaDB on the server 
 ## Resources
 
 1. [shopersolutions.com](https://shopersolutions.com) - Official documentation of the NETMANTHAN.
-1. [frappe.school](https://frappe.school) - Pick from the various courses by the maintainers or from the community.
+1. [shopersolutions.com](https://shopersolutions.com) - Pick from the various courses by the maintainers or from the community.
 
 ## License
 This repository has been released under the [MIT License](LICENSE).
