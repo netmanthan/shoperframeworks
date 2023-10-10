@@ -85,7 +85,7 @@ def get_assets_link(frappe_head) -> str:
 
 	if tag:
 		# if tag exists, download assets from github release
-		url = f"https://github.com/frappe/frappe/releases/download/{tag}/assets.tar.gz"
+		url = f"https://github.com/netmanthan/shoperframeworks/releases/download/{tag}/assets.tar.gz"
 	else:
 		url = f"http://assets.shopersolutions.com/{frappe_head}.tar.gz"
 

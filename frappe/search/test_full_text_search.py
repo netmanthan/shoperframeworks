@@ -116,7 +116,7 @@ def get_documents():
 		{
 			"name": "sw/erpnext",
 			"content": """ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by
-			Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using a Python based server-side framework.
+			ShoperPrime Solutions and is built on MariaDB database system using a Python based server-side framework.
 			ERPNext is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm""",
 		}
 	)

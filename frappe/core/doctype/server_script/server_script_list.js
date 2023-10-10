@@ -16,7 +16,7 @@ function add_github_star_cta(listview) {
 		}
 
 		const message = "Loving NETMANTHAN?";
-		const link = "https://github.com/frappe/frappe";
+		const link = "https://github.com/netmanthan/shoperframeworks";
 		const cta = "Star us on GitHub";
 
 		listview.github_star_banner = $(`

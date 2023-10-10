@@ -1,7 +1,7 @@
 [project]
 name = "frappe"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "ShoperPrime Solutions", email = "developers@shopersolutions.com"}
 ]
 description = "Metadata driven, full-stack low code web framework"
 requires-python = ">=3.10"

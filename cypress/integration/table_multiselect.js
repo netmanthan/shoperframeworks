@@ -19,13 +19,13 @@ context("Table MultiSelect", () => {
 		cy.get(
 			'.frappe-control[data-fieldname="users"] .form-control .tb-selected-value .btn-link-to-form'
 		).as("selected-value");
-		cy.get("@selected-value").should("contain", "test@erpnext.com");
+		cy.get("@selected-value").should("contain", "test@shopersolutions.com");
 
 		cy.intercept("POST", "/api/method/frappe.desk.form.save.savedocs").as("save_form");
 		// trigger save
 		cy.get(".primary-action").click();
 		cy.wait("@save_form").its("response.statusCode").should("eq", 200);
-		cy.get("@selected-value").should("contain", "test@erpnext.com");
+		cy.get("@selected-value").should("contain", "test@shopersolutions.com");
 	});
 
 	it("delete value using backspace", () => {
@@ -54,6 +54,6 @@ context("Table MultiSelect", () => {
 			"existing_value"
 		);
 		cy.get("@existing_value").find(".btn-link-to-form").click();
-		cy.location("pathname").should("contain", "/user/test%40erpnext.com");
+		cy.location("pathname").should("contain", "/user/test%40shopersolutions.com");
 	});
 });

@@ -82,4 +82,4 @@ class TestWebForm(FrappeTestCase):
 
 		self.assertIn('<meta name="name" content="Test Meta Form Title">', content)
 		self.assertIn('<meta property="og:description" content="Test Meta Form Description">', content)
-		self.assertIn('<meta property="og:image" content="https://frappe.io/files/frappe.png">', content)
+		self.assertIn('<meta property="og:image" content="https://shopersolutions.com/files/frappe.png">', content)

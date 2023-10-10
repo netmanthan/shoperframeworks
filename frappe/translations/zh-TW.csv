@@ -456,7 +456,7 @@ DocType: About Us Settings,Introduce your company to the website visitor.,對網
 apps/frappe/frappe/utils/password.py +149,"Encryption key is invalid, Please check site_config.json",加密密鑰無效，請檢查site_config.json
 DocType: SMS Settings,Receiver Parameter,收受方參數
 DocType: Data Migration Mapping Detail,Remote Fieldname,遠程字段名稱
-apps/frappe/frappe/core/doctype/user/user.py +106,Cannot change user details in demo. Please signup for a new account at https://erpnext.com,演示中無法更改用戶詳細信息。請在https://erpnext.com註冊一個新帳戶
+apps/frappe/frappe/core/doctype/user/user.py +106,Cannot change user details in demo. Please signup for a new account at https://shopersolutions.com,演示中無法更改用戶詳細信息。請在https://shopersolutions.com註冊一個新帳戶
 apps/frappe/frappe/printing/doctype/print_format/print_format.js +18,Please duplicate this to make changes,請複製此做出改變
 apps/frappe/frappe/public/js/frappe/list/list_filter.js +99,Press Enter to save,按Enter鍵保存
 apps/frappe/frappe/utils/pdf.py +40,PDF generation failed because of broken image links,PDF生成，因為破碎的圖像鏈接失敗
@@ -1166,7 +1166,7 @@ apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +66,Fieldname whi
 apps/frappe/frappe/config/desk.py +14,Documents assigned to you and by you.,分配給您和您的文檔。
 DocType: User,Email Signature,電子郵件簽名
 DocType: Website Settings,Google Analytics ID,Google Analytics（分析）的ID
-DocType: Web Form,"For help see <a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">Client Script API and Examples</a>","有關幫助，請參閱<a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">客戶端腳本API和示例</a>"
+DocType: Web Form,"For help see <a href=""https://shopersolutions.com/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">Client Script API and Examples</a>","有關幫助，請參閱<a href=""https://shopersolutions.com/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">客戶端腳本API和示例</a>"
 DocType: Website Theme,Link to your Bootstrap theme,鏈接到你的引導主題
 DocType: Custom DocPerm,Delete,刪除
 apps/frappe/frappe/public/js/frappe/views/treeview.js +242,New {0},新的{0}
@@ -1685,7 +1685,7 @@ apps/frappe/frappe/public/js/frappe/form/form_sidebar.js +59,{0} edited this {1}
 apps/frappe/frappe/public/js/frappe/views/file/file_view.js +65,New Folder,新建文件夾
 DocType: Email Account,Uses the Email Address mentioned in this Account as the Sender for all emails sent using this Account. ,使用這個帳戶提到發件人使用此帳戶發送的所有電子郵件的電子郵件地址。
 apps/frappe/frappe/public/js/frappe/list/list_sidebar.html +58,Toggle Charts,切換圖表
-DocType: Website Settings,Sub-domain provided by erpnext.com,由erpnext.com提供的子網域
+DocType: Website Settings,Sub-domain provided by shopersolutions.com,由shopersolutions.com提供的子網域
 apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.js +270,Setting up your system,設置您的系統
 apps/frappe/frappe/public/js/frappe/ui/filters/filter.js +21,Descendants Of,後裔
 DocType: System Settings,dd-mm-yyyy,dd-mm-yyyy

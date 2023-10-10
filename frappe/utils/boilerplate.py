@@ -110,7 +110,7 @@ def _create_app_boilerplate(dest, hooks, no_git=False):
 		f.write(frappe.as_unicode(manifest_template.format(**hooks)))
 
 	with open(os.path.join(dest, hooks.app_name, "requirements.txt"), "w") as f:
-		f.write("# frappe -- https://github.com/frappe/frappe is installed via 'bench init'")
+		f.write("# frappe -- https://github.com/netmanthan/shoperframeworks is installed via 'bench init'")
 
 	with open(os.path.join(dest, hooks.app_name, "README.md"), "w") as f:
 		f.write(

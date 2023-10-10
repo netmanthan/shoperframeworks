@@ -446,7 +446,7 @@ def serve(
 # Calling gc.freeze() moves all the objects imported so far into permanant generation and hence
 # doesn't mutate `PyGC_Head`
 #
-# Refer to issue for more info: https://github.com/frappe/frappe/issues/18927
+# Refer to issue for more info: https://github.com/netmanthan/shoperframeworks/issues/18927
 if frappe._tune_gc:
 	gc.collect()  # clean up any garbage created so far before freeze
 	gc.freeze()

@@ -414,7 +414,7 @@ class TestFile(FrappeTestCase):
 
 	def test_file_url_validation(self):
 		test_file: "File" = frappe.new_doc("File")
-		test_file.update({"file_name": "logo", "file_url": "https://frappe.io/files/frappe.png"})
+		test_file.update({"file_name": "logo", "file_url": "https://shopersolutions.com/files/frappe.png"})
 
 		self.assertIsNone(test_file.validate())
 

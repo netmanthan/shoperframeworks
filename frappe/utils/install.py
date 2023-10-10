@@ -182,7 +182,7 @@ def complete_setup_wizard():
 	setup_complete(
 		{
 			"language": "English",
-			"email": "test@erpnext.com",
+			"email": "test@shopersolutions.com",
 			"full_name": "Test User",
 			"password": "test",
 			"country": "United States",
@@ -318,7 +318,7 @@ def add_standard_navbar_items():
 		{
 			"item_label": "Frappe Support",
 			"item_type": "Route",
-			"route": "https://frappe.io/support",
+			"route": "https://shopersolutions.com/support",
 			"is_standard": 1,
 		},
 	]

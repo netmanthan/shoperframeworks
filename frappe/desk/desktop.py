@@ -1,6 +1,6 @@
 # Copyright (c) 2020, NETMANTHAN and Contributors
 # License: MIT. See LICENSE
-# Author - Shivam Mishra <shivam@frappe.io>
+# Author - Shivam Mishra <shivam@shopersolutions.com>
 
 from functools import wraps
 from json import dumps, loads

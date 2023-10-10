@@ -820,7 +820,7 @@ DocType: Workflow State,forward,předat dál
 sites/assets/js/form.min.js +270,{0} edited this {1},{0} upravovat tento {1}
 DocType: Web Page,Custom Javascript,Přizpůsobený Javascript
 DocType: DocPerm,Submit,Odeslat
-DocType: Website Settings,Sub-domain provided by erpnext.com,Sub doména poskytnutá (kým) erpnext.com
+DocType: Website Settings,Sub-domain provided by shopersolutions.com,Sub doména poskytnutá (kým) shopersolutions.com
 DocType: System Settings,dd-mm-yyyy,dd-mm-rrrr
 apps/frappe/frappe/desk/query_report.py +69,Must have report permission to access this report.,Potřebujete práva pro přístup k tomuto Reportu.
 apps/frappe/frappe/desk/doctype/event/event.py +62,Daily Event Digest is sent for Calendar Events where reminders are set.,Denní přehled událostí je zasílán pro kalendářní události kde je nastaveno připomínání.

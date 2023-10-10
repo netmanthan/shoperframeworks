@@ -269,7 +269,7 @@ frappe.views.ListSidebar = class ListSidebar {
 			}
 
 			const message = "Get more insights with";
-			const link = "https://frappe.io/s/insights";
+			const link = "https://shopersolutions.com/s/insights";
 			const cta = "Frappe Insights";
 
 			this.insights_banner = $(`
