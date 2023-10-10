@@ -316,7 +316,7 @@ def add_standard_navbar_items():
 			"is_standard": 1,
 		},
 		{
-			"item_label": "Frappe Support",
+			"item_label": "ShoperPrime Support",
 			"item_type": "Route",
 			"route": "https://shopersolutions.com/support",
 			"is_standard": 1,
