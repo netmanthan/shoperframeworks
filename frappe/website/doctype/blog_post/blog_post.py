@@ -53,9 +53,9 @@ class BlogPost(WebsiteGenerator):
 			self.meta_title = self.meta_title[:60]
 
 		if not self.meta_description:
-			self.meta_description = self.blog_intro[:150]
+			self.meta_description = self.blog_intro[:140]
 		else:
-			self.meta_description = self.meta_description[:150]
+			self.meta_description = self.meta_description[:140]
 
 		if self.published and not self.published_on:
 			self.published_on = today()
@@ -101,9 +101,9 @@ class BlogPost(WebsiteGenerator):
 
 		context.content = get_html_content_based_on_type(self, "content", self.content_type)
 
-		# if meta description is not present, then blog intro or first 150 characters of the blog will be set as description
+		# if meta description is not present, then blog intro or first 140 characters of the blog will be set as description
 		context.description = (
-			self.meta_description or self.blog_intro or strip_html_tags(context.content[:150])
+			self.meta_description or self.blog_intro or strip_html_tags(context.content[:140])
 		)
 
 		context.metatags = {

@@ -959,7 +959,7 @@ apps/frappe/frappe/integrations/doctype/dropbox_settings/dropbox_settings.py +29
 DocType: File,old_parent,old_parent
 apps/frappe/frappe/config/desk.py +54,"Newsletters to contacts, leads.",通訊，聯絡人，線索。
 DocType: Email Account,"e.g. ""Support"", ""Sales"", ""Jerry Yang""",例如“支持“，”銷售“，”傑里楊“
-apps/frappe/frappe/twofactor.py +150,Incorrect Verification code,驗證碼不正確
+apps/frappe/frappe/twofactor.py +140,Incorrect Verification code,驗證碼不正確
 DocType: Print Settings,Repeat Header and Footer in PDF,重複頁眉和頁腳的PDF
 DocType: Address Template,Is Default,是預設
 DocType: Data Migration Connector,Connector Type,連接器類型
@@ -1060,7 +1060,7 @@ DocType: Note,"Help: To link to another record in the system, use ""#Form/Note/[
 DocType: User Permission,Allow,允許
 apps/frappe/frappe/utils/password_strength.py +117,Let's avoid repeated words and characters,讓我們避免重複的字和字符
 DocType: Communication,Delayed,延遲
-apps/frappe/frappe/config/setup.py +150,List of backups available for download,可供下載的備份目錄
+apps/frappe/frappe/config/setup.py +140,List of backups available for download,可供下載的備份目錄
 apps/frappe/frappe/www/login.html +72,Sign up,報名
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.py +188,Row {0}: Not allowed to disable Mandatory for standard fields,行{0}：不允許禁用標準域的強制性
 DocType: Test Runner,Output,產量
@@ -1472,7 +1472,7 @@ apps/frappe/frappe/contacts/doctype/contact/contact.js +20,Invite as User,邀請
 DocType: Data Migration Run,Started,入門
 DocType: Data Migration Run,End Time,結束時間
 apps/frappe/frappe/public/js/frappe/views/interaction.js +83,Select Attachments,選擇附件
-apps/frappe/frappe/website/js/web_form.js +150,There were errors. Please report this.,有錯誤。請報告此。
+apps/frappe/frappe/website/js/web_form.js +140,There were errors. Please report this.,有錯誤。請報告此。
 apps/frappe/frappe/public/js/legacy/form.js +173,You are not allowed to print this document,你不允許列印此文件
 apps/frappe/frappe/data_migration/doctype/data_migration_run/data_migration_run.js +11,Currently updating {0},當前正在更新{0}
 apps/frappe/frappe/email/doctype/auto_email_report/auto_email_report.py +124,Please set filters value in Report Filter table.,請設置在報告過濾表過濾器值。
@@ -2310,7 +2310,7 @@ DocType: Chat Room User,Chat Room User,聊天室用戶
 apps/frappe/frappe/model/workflow.py +38,Workflow State not set,工作流程狀態未設置
 apps/frappe/frappe/www/404.html +23,The page you are looking for is missing. This could be because it is moved or there is a typo in the link.,您正在查找的頁已丟失。這可能是因為它被移動或有路段中的錯字。
 apps/frappe/frappe/www/404.html +26,Error Code: {0},錯誤代碼：{0}
-DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 150 characters)",說明列表頁面，在純文本中，只有幾行。 （最多140個字符）
+DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 140 characters)",說明列表頁面，在純文本中，只有幾行。 （最多140個字符）
 DocType: Workflow,Allow Self Approval,允許自我批准
 DocType: Event,Event Category,活動類別
 DocType: DocType,Name Case,案例名稱
@@ -2814,7 +2814,7 @@ apps/frappe/frappe/public/js/frappe/views/reports/report_view.js +848,Totals Row
 apps/frappe/frappe/core/doctype/doctype/doctype.py +796,{0}: Permission at level 0 must be set before higher levels are set,{0} ：權限在0水平必須於更高級別前設定
 apps/frappe/frappe/desk/doctype/todo/todo.py +34,Assignment closed by {0},指派作業由 {0} 結案
 DocType: Integration Request,Remote,遠程
-apps/frappe/frappe/public/js/frappe/ui/toolbar/awesome_bar.js +150,Calculate,計算
+apps/frappe/frappe/public/js/frappe/ui/toolbar/awesome_bar.js +140,Calculate,計算
 apps/frappe/frappe/printing/doctype/print_format/print_format.js +28,Please select DocType first,請首先選擇的DocType
 apps/frappe/frappe/email/doctype/newsletter/newsletter.py +179,Confirm Your Email,確認您的電子郵件
 apps/frappe/frappe/www/login.html +41,Or login with,或登錄

@@ -224,7 +224,7 @@ frappe.ui.form.ControlData = class ControlData extends frappe.ui.form.ControlInp
 				// singles dont have any "real" length requirements
 				return;
 			}
-			this.$input.attr("maxlength", this.df.length || 150);
+			this.$input.attr("maxlength", this.df.length || 140);
 		}
 
 		this.$input

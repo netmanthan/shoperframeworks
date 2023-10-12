@@ -29,8 +29,8 @@ class TestWorkflow(FrappeTestCase):
 				frappe.db.commit()
 				frappe.db.multisql(
 					{
-						"mariadb": "ALTER TABLE `tabWorkflow Action` ADD COLUMN user varchar(150)",
-						"postgres": 'ALTER TABLE "tabWorkflow Action" ADD COLUMN "user" varchar(150)',
+						"mariadb": "ALTER TABLE `tabWorkflow Action` ADD COLUMN user varchar(140)",
+						"postgres": 'ALTER TABLE "tabWorkflow Action" ADD COLUMN "user" varchar(140)',
 					}
 				)
 				frappe.cache().delete_value("table_columns")

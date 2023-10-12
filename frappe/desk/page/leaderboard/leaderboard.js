@@ -264,7 +264,7 @@ class Leaderboard {
 						labels: graph_items.map((d) => d.name),
 					},
 					format_tooltip_x: (d) => d[this.options.selected_filter_item],
-					height: 150,
+					height: 140,
 				};
 				frappe.utils.make_chart(".leaderboard-graph", custom_options);
 

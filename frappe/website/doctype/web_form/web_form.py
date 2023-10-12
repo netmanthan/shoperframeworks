@@ -206,7 +206,7 @@ def get_context(context):
 		description = self.meta_description
 
 		if not description and self.introduction_text:
-			description = self.introduction_text[:150]
+			description = self.introduction_text[:140]
 
 		context.metatags = {
 			"name": self.meta_title or self.title,

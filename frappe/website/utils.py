@@ -187,7 +187,7 @@ def cleanup_page_name(title: str) -> str:
 	name = "-".join(name.split())
 	# replace repeating hyphens
 	name = CLEANUP_PATTERN_3.sub(r"\1", name)
-	return name[:150]
+	return name[:140]
 
 
 def get_shade(color, percent=None):

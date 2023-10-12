@@ -486,7 +486,7 @@ class Email:
 			self.subject = safe_decode(self.subject, _subject[0][1])
 		else:
 			# assume that the encoding is utf-8
-			self.subject = safe_decode(self.subject)[:150]
+			self.subject = safe_decode(self.subject)[:140]
 
 		if not self.subject:
 			self.subject = "No Subject"
@@ -884,7 +884,7 @@ class InboundMail(Email):
 		email_fileds = self.get_email_fields(doctype)
 
 		if email_fileds.subject_field:
-			parent.set(email_fileds.subject_field, frappe.as_unicode(self.subject)[:150])
+			parent.set(email_fileds.subject_field, frappe.as_unicode(self.subject)[:140])
 
 		if email_fileds.sender_field:
 			parent.set(email_fileds.sender_field, frappe.as_unicode(self.from_email))

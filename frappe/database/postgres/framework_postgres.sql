@@ -129,10 +129,10 @@ CREATE TABLE "tabDocType Action" (
   "parentfield" varchar(255) DEFAULT NULL,
   "parenttype" varchar(255) DEFAULT NULL,
   "idx" bigint NOT NULL DEFAULT 0,
-  "label" varchar(150) NOT NULL,
+  "label" varchar(140) NOT NULL,
   "group" text DEFAULT NULL,
-  "action_type" varchar(150) NOT NULL,
-  "action" varchar(150) NOT NULL,
+  "action_type" varchar(140) NOT NULL,
+  "action" varchar(140) NOT NULL,
   PRIMARY KEY ("name")
 ) ;
 
@@ -154,10 +154,10 @@ CREATE TABLE "tabDocType Link" (
   "parentfield" varchar(255) DEFAULT NULL,
   "parenttype" varchar(255) DEFAULT NULL,
   "idx" bigint NOT NULL DEFAULT 0,
-  "label" varchar(150) DEFAULT NULL,
-  "group" varchar(150) DEFAULT NULL,
-  "link_doctype" varchar(150) NOT NULL,
-  "link_fieldname" varchar(150) NOT NULL,
+  "label" varchar(140) DEFAULT NULL,
+  "group" varchar(140) DEFAULT NULL,
+  "link_doctype" varchar(140) NOT NULL,
+  "link_fieldname" varchar(140) NOT NULL,
   PRIMARY KEY ("name")
 ) ;
 
@@ -282,9 +282,9 @@ create index on "tabSingles" ("doctype", "field");
 
 DROP TABLE IF EXISTS "__Auth";
 CREATE TABLE "__Auth" (
-	"doctype" VARCHAR(150) NOT NULL,
+	"doctype" VARCHAR(140) NOT NULL,
 	"name" VARCHAR(255) NOT NULL,
-	"fieldname" VARCHAR(150) NOT NULL,
+	"fieldname" VARCHAR(140) NOT NULL,
 	"password" TEXT NOT NULL,
 	"encrypted" int NOT NULL DEFAULT 0,
 	PRIMARY KEY ("doctype", "name", "fieldname")
