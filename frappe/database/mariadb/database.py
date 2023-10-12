@@ -266,9 +266,9 @@ class MariaDBDatabase(MariaDBConnectionUtil, MariaDBExceptionUtil, Database):
 	def create_auth_table(self):
 		self.sql_ddl(
 			"""create table if not exists `__Auth` (
-				`doctype` VARCHAR(140) NOT NULL,
+				`doctype` VARCHAR(150) NOT NULL,
 				`name` VARCHAR(255) NOT NULL,
-				`fieldname` VARCHAR(140) NOT NULL,
+				`fieldname` VARCHAR(150) NOT NULL,
 				`password` TEXT NOT NULL,
 				`encrypted` INT(1) NOT NULL DEFAULT 0,
 				PRIMARY KEY (`doctype`, `name`, `fieldname`)

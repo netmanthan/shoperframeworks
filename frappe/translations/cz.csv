@@ -284,7 +284,7 @@ apps/frappe/frappe/core/doctype/doctype/doctype.py +312,Fieldname is required in
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder_column_selector.html +4,Column,Sloupec
 DocType: Custom Field,Adds a custom field to a DocType,Přidá přizpůsobené pole do DocType
 sites/assets/js/editor.min.js +103,Bold (Ctrl/Cmd+B),Tučně (Ctrl/Cmd+B)
-apps/frappe/frappe/core/page/user_permissions/user_permissions.js +140,Upload and Sync,Nahrát a sloučit
+apps/frappe/frappe/core/page/user_permissions/user_permissions.js +150,Upload and Sync,Nahrát a sloučit
 sites/assets/js/form.min.js +274,Shared with {0},Společná pracoviště s {0}
 DocType: DocType,Single Types have only one record no tables associated. Values are stored in tabSingles,Typy osamocené mají pouze jeden záznam - není asociovaná žádná tabulka. Hodnoty jsou uloženy v tabSingles
 DocType: Bulk Email,Bulk Email,Hromadný Email
@@ -626,7 +626,7 @@ apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +7,
 apps/frappe/frappe/website/doctype/web_page/web_page.py +158,Website Search,Website vyhledávání
 DocType: DocField,Mandatory,Povinné
 apps/frappe/frappe/core/doctype/doctype/doctype.py +356,{0}: No basic permissions set,{0}: Nejsou nastavena základní práva
-apps/frappe/frappe/utils/backups.py +140,Download link for your backup will be emailed on the following email address: {0},Download link pro zálohování bude zasláno na e-mailovou adresu: {0}
+apps/frappe/frappe/utils/backups.py +150,Download link for your backup will be emailed on the following email address: {0},Download link pro zálohování bude zasláno na e-mailovou adresu: {0}
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +14,"Meaning of Submit, Cancel, Amend","Význam pojmů Vložit, Zrušit, Změnit"
 apps/frappe/frappe/desk/doctype/todo/todo_list.js +7,To Do,Úkoly
 sites/assets/js/editor.min.js +94,Paragraph,Odstavec
@@ -874,7 +874,7 @@ DocType: Workflow State,pencil,tužka
 sites/assets/js/form.min.js +277,Share {0} with,Podíl {0} s
 DocType: Workflow State,hand-up,hand-up
 DocType: Blog Settings,Writers Introduction,Představení přispěvovatelů
-apps/frappe/frappe/core/page/permission_manager/permission_manager.js +140,Select Document Type or Role to start.,Zvolte DocType nebo roli pro zahájení
+apps/frappe/frappe/core/page/permission_manager/permission_manager.js +150,Select Document Type or Role to start.,Zvolte DocType nebo roli pro zahájení
 sites/assets/js/desk.min.js +788,Page not found,Stránka nenalezena
 DocType: DocField,Precision,přesnost
 DocType: Website Slideshow,Slideshow Items,Položky promítání obrázků
@@ -1113,7 +1113,7 @@ sites/assets/js/form.min.js +180,Cancelling,Zrušení
 DocType: DocType,Allow Rename,Povolit přejmenování
 DocType: DocType,Child Tables are shown as a Grid in other DocTypes.,Podřízené tabulky jsou zobrazovány jako mřížka v jiných DocTypes.
 DocType: Website Settings,"If checked, the Home page will be the default Item Group for the website.","Pakliže je toto zaškrtnuto, domovská stránka se stane výchozí skupinou položek pro www stránku."
-DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 140 characters)","Popis pro stránku výpisů, v čistém textu, pouze pár řádek. (max 140 znaků)"
+DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 150 characters)","Popis pro stránku výpisů, v čistém textu, pouze pár řádek. (max 150 znaků)"
 sites/assets/js/desk.min.js +852,Forums,Fóra
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +297,Add A User Restriction,Přidání uživatele Omezení
 DocType: DocType,Name Case,Název případu

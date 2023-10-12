@@ -460,7 +460,7 @@ apps/frappe/frappe/custom/doctype/customize_form/customize_form.py +180,Row {0}:
 apps/frappe/frappe/www/list.html +4,{0} List,Listado: {0}
 DocType: DocType,Is Submittable,Es presentable--
 DocType: System Settings,Disable Standard Email Footer,Desactivar pie de página estandar en Email
-DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 140 characters)","Descripción de la página perfil, en texto plano, sólo un par de líneas. (máx. 140 caracteres)"
+DocType: Blog Post,"Description for listing page, in plain text, only a couple of lines. (max 150 characters)","Descripción de la página perfil, en texto plano, sólo un par de líneas. (máx. 150 caracteres)"
 apps/frappe/frappe/core/doctype/doctype/doctype.py +825,{0} cannot be set for Single types,{0} no se puede establecer para los tipos individuales
 apps/frappe/frappe/printing/page/print_format_builder/print_format_builder.js +600,Select Table Columns for {0},Seleccionar columnas de tabla para {0}
 DocType: Workflow State,cog,diente

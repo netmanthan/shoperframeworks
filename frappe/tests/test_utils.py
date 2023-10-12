@@ -806,7 +806,7 @@ class TestRounding(FrappeTestCase):
 		self.assertEqual(flt(123, -1), 120)
 		self.assertEqual(flt(125, -1), 130)
 		self.assertEqual(flt(134.45, -1), 130)
-		self.assertEqual(flt(135, -1), 140)
+		self.assertEqual(flt(135, -1), 150)
 
 		# positive multiple digit rounding
 		self.assertEqual(flt(1.25, 1), 1.3)
@@ -838,7 +838,7 @@ class TestRounding(FrappeTestCase):
 		self.assertEqual(flt(123, -1, rounding_method=rounding_method), 120)
 		self.assertEqual(flt(125, -1, rounding_method=rounding_method), 130)
 		self.assertEqual(flt(134.45, -1, rounding_method=rounding_method), 130)
-		self.assertEqual(flt(135, -1, rounding_method=rounding_method), 140)
+		self.assertEqual(flt(135, -1, rounding_method=rounding_method), 150)
 
 		# positive multiple digit rounding
 		self.assertEqual(flt(1.25, 1, rounding_method=rounding_method), 1.3)
@@ -892,7 +892,7 @@ class TestRounding(FrappeTestCase):
 		self.assertEqual(flt(123, -1, rounding_method=rounding_method), 120)
 		self.assertEqual(flt(125, -1, rounding_method=rounding_method), 120)
 		self.assertEqual(flt(134.45, -1, rounding_method=rounding_method), 130)
-		self.assertEqual(flt(135, -1, rounding_method=rounding_method), 140)
+		self.assertEqual(flt(135, -1, rounding_method=rounding_method), 150)
 
 		# positive multiple digit rounding
 		self.assertEqual(flt(1.25, 1, rounding_method=rounding_method), 1.2)

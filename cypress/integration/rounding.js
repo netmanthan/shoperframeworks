@@ -29,7 +29,7 @@ context("Rounding behaviour", () => {
 				expect(flt(123, -1, null, rounding_method)).eq(120);
 				expect(flt(125, -1, null, rounding_method)).eq(130);
 				expect(flt(134.45, -1, null, rounding_method)).eq(130);
-				expect(flt(135, -1, null, rounding_method)).eq(140);
+				expect(flt(135, -1, null, rounding_method)).eq(150);
 
 				//  positive multiple digit rounding
 				expect(flt(1.25, 1, null, rounding_method)).eq(1.3);
@@ -67,7 +67,7 @@ context("Rounding behaviour", () => {
 				expect(flt(123, -1, null, rounding_method)).eq(120);
 				expect(flt(125, -1, null, rounding_method)).eq(120);
 				expect(flt(134.45, -1, null, rounding_method)).eq(130);
-				expect(flt(135, -1, null, rounding_method)).eq(140);
+				expect(flt(135, -1, null, rounding_method)).eq(150);
 
 				// positive multiple digit rounding
 				expect(flt(1.25, 1, null, rounding_method)).eq(1.2);

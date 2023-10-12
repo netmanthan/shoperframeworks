@@ -118,19 +118,19 @@ CREATE TABLE `tabDocPerm` (
 
 DROP TABLE IF EXISTS `tabDocType Action`;
 CREATE TABLE `tabDocType Action` (
-  `name` varchar(140) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(150) COLLATE utf8mb4_unicode_ci NOT NULL,
   `creation` datetime(6) DEFAULT NULL,
   `modified` datetime(6) DEFAULT NULL,
-  `modified_by` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `owner` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `modified_by` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `owner` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `docstatus` int(1) NOT NULL DEFAULT 0,
-  `parent` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `parentfield` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `parenttype` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parent` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parentfield` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parenttype` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `idx` int(8) NOT NULL DEFAULT 0,
-  `label` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `group` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `action_type` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `label` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `group` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `action_type` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `action` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`name`),
   KEY `parent` (`parent`),
@@ -143,19 +143,19 @@ CREATE TABLE `tabDocType Action` (
 
 DROP TABLE IF EXISTS `tabDocType Link`;
 CREATE TABLE `tabDocType Link` (
-  `name` varchar(140) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `name` varchar(150) COLLATE utf8mb4_unicode_ci NOT NULL,
   `creation` datetime(6) DEFAULT NULL,
   `modified` datetime(6) DEFAULT NULL,
-  `modified_by` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `owner` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `modified_by` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `owner` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `docstatus` int(1) NOT NULL DEFAULT 0,
-  `parent` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `parentfield` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `parenttype` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parent` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parentfield` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `parenttype` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `idx` int(8) NOT NULL DEFAULT 0,
-  `group` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `link_doctype` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `link_fieldname` varchar(140) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `group` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `link_doctype` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `link_fieldname` varchar(150) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`name`),
   KEY `parent` (`parent`),
   KEY `modified` (`modified`)
@@ -279,9 +279,9 @@ CREATE TABLE `tabSingles` (
 
 DROP TABLE IF EXISTS `__Auth`;
 CREATE TABLE `__Auth` (
-	`doctype` VARCHAR(140) NOT NULL,
+	`doctype` VARCHAR(150) NOT NULL,
 	`name` VARCHAR(255) NOT NULL,
-	`fieldname` VARCHAR(140) NOT NULL,
+	`fieldname` VARCHAR(150) NOT NULL,
 	`password` TEXT NOT NULL,
 	`encrypted` INT(1) NOT NULL DEFAULT 0,
 	PRIMARY KEY (`doctype`, `name`, `fieldname`)
